@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* HTML and Body Styles */
+
+html{
+    background: rgb(255,111,105);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+body{
+}
+footer{
+    background: rgb(150,206,180);
+}

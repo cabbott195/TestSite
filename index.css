@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import url("p_designs.css");
+
+footer{
+
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 1.5em;
+}
+
+body > nav > ul li{
+    text-decoration: none;
+}
