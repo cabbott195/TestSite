@@ -2,7 +2,6 @@
 @import url("p_designs.css");
 
 footer{
-
     text-align: center;
     font-size: 16px;
     width: 100%;
@@ -11,6 +10,6 @@ footer{
     height: 1.5em;
 }
 
-body > nav > ul li{
+body > nav > ul li a{
     text-decoration: none;
 }
