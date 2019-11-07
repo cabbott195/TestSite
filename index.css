@@ -13,3 +13,7 @@ footer{
 body > nav > ul li a{
     text-decoration: none;
 }
+/*H1 styles*/
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
