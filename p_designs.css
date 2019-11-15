@@ -3,7 +3,7 @@
 /* HTML and Body Styles */
 
 html{
-    background: rgb(255,111,105);
+    background: rgb(7,87,91);
     font-family: Verdana, Geneva, sans-serif;
     font-size: 12px;
     font-family: 'Press Start 2P', cursive;
@@ -22,7 +22,7 @@ footer{
     position: center;
     bottom: 0;
     height: 1.5em;
-    background: rgb(150,206,180);
+    background: rgb(102,165,173);
 }
 /*Nav Styles*/
 nav{
@@ -32,16 +32,19 @@ nav{
     top: 0;
     text-shadow: 0px 0px 2px black, 0px 0px 15px white;
     box-shadow: black 10px 10px 25px;
+    background-color: rgb(102,165,173);
 }
 nav ul{
     display: -webkit-flex; 
     display: flex;
     -webkit-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    background-color: rgb(150,206,180);
     height:50px;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
     list-style: none;
     margin: 0 2px;
     padding: 0;
@@ -52,14 +55,68 @@ nav ul li{
     list-style-type: none;
 }
 nav ul li a{
-    color: white;
-    display: block;
+    color: rgb(196,223,230);
     font-size: 1.2em;
     text-align: center;
     padding: 50% 0%;
     text-decoration: none;
 }
-nav ul li a:hover, nav ul li a:active {
+nav ul li a:hover, nav ul li a:active{
     color: rgb(255, 0, 0);
     text-shadow: 0px 0px 2px black, 0px 0px 15px white;
  }
+/*html{
+    animation: colorchange 5s;
+    -webkit-animation: colorchange 5s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes colorchange{
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@-webkit-keyframes colorchange{
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}*/
+nav{
+    display: block;
+    text-align: center;
+    margin: 20px 0 0 ;
+    padding: 10px 0;
+    border: double 4px black;
+}
+    
+nav li {
+    display: inline-block;
+    padding: 25px 25px;
+}
+    
+nav a {
+    font-weight: normal;
+    padding: 18px 12px;
+    font-size: .80em;
+}
+nav li:nth-of-type(4){
+    padding: 33px;
+}
+nav li:nth-of-type(5){
+    padding: 50px;
+}
+footer{
+    display: block;
+    text-align: center;
+    border: double 4px black;
+}
+article{
+    border: double 4px black;
+    color: rgb(196,223,230);
+    line-height: 50px; 
+}

@@ -6,4 +6,21 @@ body{
 img{
     float: left;
     display: block;
+    border-radius: 35px;
+    padding: 7px;
+    width:250;
+    height:250;
+}
+div.img::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+footer{
+    display: none;
+}
+img{
+    border: dashed 2px black;
+    margin-top:12px;
+    margin-left: 18px;
 }

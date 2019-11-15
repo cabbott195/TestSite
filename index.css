@@ -7,7 +7,7 @@ footer{
     width: 100%;
     position: absolute;
     bottom: 0;
-    height: 1.5em;
+    /*height: 1.5em;*/
 }
 
 body > nav > ul li a{
@@ -16,4 +16,5 @@ body > nav > ul li a{
 /*H1 styles*/
 h1{
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
