@@ -120,3 +120,7 @@ article{
     color: rgb(196,223,230);
     line-height: 50px; 
 }
+footer{
+    left: .5px;
+    right:.5px;
+}

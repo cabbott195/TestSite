@@ -9,3 +9,38 @@ nav ul li{
 article{
     font-size: 25px;
 }
+
+*{box-sizing:border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 95%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+footer{
+    display: none;
+}
+nav li:nth-of-type(1){
+    padding: 90px;
+}
+nav li:nth-of-type(2){
+    padding: 90px;
+}
+nav li:nth-of-type(3){
+    padding: 90px;
+}
+nav li:nth-of-type(4){
+    padding: 90px;
+}
+nav li:nth-of-type(5){
+    padding: 90px;
+}
+
