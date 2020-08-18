@@ -24,10 +24,10 @@ article{
 }
 
 .html {width: 95%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-footer{
+.css {width: 95%; background-color: #2196F3;}
+/*footer{
     display: none;
-}
+}*/
 nav li:nth-of-type(1){
     padding: 90px;
 }
@@ -43,4 +43,33 @@ nav li:nth-of-type(4){
 nav li:nth-of-type(5){
     padding: 90px;
 }
+footer{
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /*height: 1.5em;*/
+    background-image:
+      radial-gradient(
+        yellow,
+        #f06d06
+      );
+}
 
+nav{
+    background-image:
+    radial-gradient(
+      yellow,
+      #f06d06
+    );
+}
+body{
+    background-image: linear-gradient(#F7971E, #FFD200);
+}
+p{
+    color: black;
+}
+html{
+    background-color: maroon;
+}

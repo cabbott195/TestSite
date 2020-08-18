@@ -8,6 +8,11 @@ footer{
     position: absolute;
     bottom: 0;
     /*height: 1.5em;*/
+    background-image:
+          radial-gradient(
+            yellow,
+            #f06d06
+          );
 }
 
 body > nav > ul li a{
@@ -35,3 +40,19 @@ h1{
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }*/
+body{
+    background-image: linear-gradient(#F7971E, #FFD200);
+}
+h1{
+    color: black;
+}
+html{
+    background-color: maroon;
+}
+nav{
+    background-image:
+    radial-gradient(
+      yellow,
+      #f06d06
+    );
+}
