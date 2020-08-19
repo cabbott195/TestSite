@@ -25,9 +25,7 @@ article{
 
 .html {width: 95%; background-color: #4CAF50;}
 .css {width: 95%; background-color: #2196F3;}
-/*footer{
-    display: none;
-}*/
+
 nav li:nth-of-type(1){
     padding: 90px;
 }
@@ -70,6 +68,9 @@ body{
 p{
     color: black;
 }
-html{
+/*html{
     background-color: maroon;
+}*/
+html{
+    background-image: url(whitetile2.png);
 }

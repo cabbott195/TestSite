@@ -23,13 +23,16 @@ body{
 p{
     color: black;
 }
-html{
+/*html{
     background-color: maroon;
-}
+}*/
 nav{
     background-image:
     radial-gradient(
       yellow,
       #f06d06
     );
+}
+html{
+    background-image: url(whitetile2.png);
 }
